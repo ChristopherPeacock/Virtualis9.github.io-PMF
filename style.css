@@ -1,70 +1,70 @@
 .howtouse {
-    text-align: center;
+  text-align: center;
 }
 
 h1,
 h3,
 h4,
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar {
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .warning {
-    text-align: center;
+  text-align: center;
 }
 
 .submenu {
-    display: none;
-    /* Hide all submenus by default */
+  display: none;
+  /* Hide all submenus by default */
 }
 
 .dropdown-content li {
-    list-style: none;
-    text-align: center;
-    margin-right: 40px;
+  list-style: none;
+  text-align: center;
+  margin-right: 40px;
 }
 
 .dropdown-btn {
-    background-color: #555;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
-    text-align: center;
-    Justify-content: space-around;
-    width: 8.4%;
+  background-color: #555;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  text-align: center;
+  justify-content: space-around;
+  width: 8.4%;
 }
 
 .dropdown-btn:hover {
-    background-color: #777;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+  background-color: #777;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 .sub-btn {
-    background-color: #555;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
-    text-align: center;
+  background-color: #555;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  text-align: center;
 }
 
 .sub-btn:hover {
-    background-color: #777;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+  background-color: #777;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 /* Style for each submenu content box */
@@ -78,7 +78,6 @@ p {
 #submenu8,
 #submenu9,
 #submenu10,
-
 #submenu11,
 #submenu12,
 #submenu13,
@@ -117,74 +116,215 @@ p {
 #submenu46,
 #submenu47,
 #submenu48 {
-    border: 2px solid #555;
-    border-radius: 10px;
-    width: 265px;
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
+  border: 2px solid #555;
+  border-radius: 10px;
+  width: 265px;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
 }
 
 /* Style for submit and clear buttons within each submenu */
 .submenu button {
-    background-color: #555;
-    color: white;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    text-align: center;
-    margin-left: 5px;
+  background-color: #555;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  text-align: center;
+  margin-left: 5px;
 }
 
 button {
-    text-align: center;
+  text-align: center;
 }
 
 .submenu button:hover {
-    background-color: #777;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #777;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Style for input feilds */
 .submenu input {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    position: relative;
-    text-align: center;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  position: relative;
+  text-align: center;
 }
 
 #totalbox {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px, 0px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  position: relative;
+  border: 2px solid #555;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.totalbox {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 40px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  #totalbox {
     display: inline-block;
     vertical-align: middle;
     margin: 0px, 0px;
-    padding: 10px 12px;
+    padding: 25px 50px;
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
     position: relative;
     border: 2px solid #555;
     border-radius: 10px;
     text-align: center;
-}
+  }
 
-.totalbox {
+  .dropdown-btn {
+    display: inline-block;
+    margin: 15px;
+    width: 250px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
-    vertical-align: middle;
-    position: relative;
-    margin-right: 40px;
-}
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
 
-li {
-    list-style: none;
+  .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-btn {
+    display: inline-block;
+    background-color: grey;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
+    background-color: #555;
+    color: white;
+    padding: 10px 200px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
+  body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+  }
+
+  .dropdown-container {
+    margin-left: 30px;
+  }
+
+  .dropdown-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+
+  .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    padding: 10px 200px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
 }
