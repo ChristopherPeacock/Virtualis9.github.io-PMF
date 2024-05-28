@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>PMF aculator</title>
+    <link rel="stylesheet" href="CSS\navbarstylesheet.css.css">
+    <title>PMF Calculator</title>
 </head>
 
 <body>
-    <h1>Wales & West Performance Calculator</h1>
+    <div class="heading">
+        <h1>
+            <span class="color1">Wales</span> 
+            <span class="color2">&</span>
+            <span class="color1">West</span> 
+            <span class="color2">Performance Calculator</span>
+
+        </h1>
+    </div>
+   
     <nav class="navbar">
 
         <div class="dropdown-container">
@@ -17,7 +26,7 @@
             <button class="dropdown-btn" onclick="toggleDropdown('repairsSubMenu')">Repairs</button>
             <button class="dropdown-btn" onclick="toggleDropdown('serviceLayingSubMenu')">Service Laying</button>
             <button class="dropdown-btn" onclick="toggleDropdown('serviceLaying(ND)SubMenu')">Service
-                Laying(ND)</button>
+                Laying (ND)</button>
             <button class="dropdown-btn" onclick="toggleDropdown('otherWorkSubMenu')">Other Work</button>
 
             <div class="submenu" id="otherWorkSubMenu">
@@ -49,9 +58,7 @@
                             <button
                                 onclick=" calculateValue('howmanyjobsUserInput', 4,'newExcistingUserResult')">Submit</button>
                             <button>Clear</button>
-                            <p id="newExcistingUserResult"></p>
-                            <!-- gap for result of meterage-->
-                            </p>
+                           
                         </li>
                     </ul>
                 </div>
@@ -257,9 +264,6 @@
                             <button
                                 onclick="serviceLaying('howmanyjobsUserInput', 6.67,'howmnaymetersUserInput', 1.72,'newExcistingUserResult')">Submit</button>
                             <button>Clear</button>
-                            <p id="newExcistingUserResult"></p>
-                            <!-- gap for result of meterage-->
-                            </p>
                         </li>
                     </ul>
                 </div>
@@ -348,8 +352,8 @@
                             onclick="serviceLaying('howManyJobsUserInput', 6.25,'howMnayMetersUserInput', 1.50,'newExcistingUserResult')">Submit</button>
                         <button>Clear</button>
                         <p id="newExcistingUserResult"></p>
-                        <!-- gap for result of meterage-->
-                        </p>
+                        
+                        
                     </li>
                 </ul>
             </div>
@@ -496,9 +500,9 @@
                         <button
                             onclick="calculateValue('primaryRepair1UserInput', 8.19,'primaryRepair1UserResult')">Submit</button>
                         <button>Clear</button>
-                        <p id="primaryRepair1UserResult"></p>
+                        <!-- <p id="primaryRepair1UserResult"></p> -->
                         <!-- gap for result of meterage -->
-                        </p>
+                        
                     </li>
                     <li>
                         <label for="input1">ERM2 Secondary Repair</label>
@@ -751,7 +755,7 @@
                         <button>Clear</button>
                         <p id="lessThan75mmInsertUserResult"></p>
                         <!-- gap for result of meterage-->
-                        </p>
+        
                     </li>
                     <li>
                         <label for="input1">Open Cut</label>
@@ -780,6 +784,7 @@
 
                 </ul>
             </div>
+            
 
             <div class="submenu" id="submenu2">
                 <ul class="dropdown-content">
@@ -1091,11 +1096,21 @@
         <!--always keep this code above at the bottom of everything everything-->
     </nav>
     <div>
-        <h3>How To Use</h3>
+        <h3>Instructions</h3>
         <p>
-            <b>Please select each tab and fill in the relevant information.<br>
-                There is a "total" box that will add up every field you have entered under the boxes<br>
-                To restart please refresh the page<br>
+            <span><b>Click on each button to select the submenu
+                <br>and fill in the relevant information.</b> </span><br>
+                <br>
+                <br>
+            <span><b>These menus do not close automatically. <br>Please click the button again to close them.</b><br></span>
+            <br>
+            <br>
+            <span><b>There is a total box that will add up<br> every field you have entered</b><br></span>
+            <br>
+            <br>
+            <span><b>The clear button feature is not yet implemented.<br>Please refresh the page to restart.<br>
+            </b><br></span>
+            
         </p>
 
     </div>
@@ -1106,10 +1121,23 @@
             BETA test</h4>
     </div>
 
+    
 
 
-
-    <script src="script.js"></script>
+    <script src="JavaScript\script.js"></script>
 </body>
+<footer>
+    <!-- <iframe 
+    id="form"
+    width="640px"
+    height="480px" 
+    src="https://forms.office.com/r/KWa69Zehsj?embed=true" 
+    frameborder="0" 
+    marginwidth="0" 
+    marginheight="0" 
+    style="border: none; max-width:100%; max-height:100vh" 
+    allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
+    </iframe> -->
+</footer>
 
 </html>
