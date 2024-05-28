@@ -1,12 +1,56 @@
+html {
+  height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
 .howtouse {
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  width: 100%; /* Spans the full width of its container */
+  padding: 20px 0; /* Adds some padding for better visual appearance */
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+  border-top: 1px solid black; /* Adds a black bottom border */
+}
+
+.heading {
+  background-color: white;
+  width: 100%;
+}
+
+h1 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   text-align: center;
 }
 
-h1,
+.color1 {
+  color: rgb(201, 77, 27);
+}
+
+.color2 {
+  color: rgb(46, 67, 85);
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  width: 100%; /* Spans the full width of its container */
+  padding: 20px 20px; /* Adds some padding for better visual appearance */
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
 h3,
-h4,
 p {
   text-align: center;
+  color: white;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  width: 100%; /* Spans the full width of its container */
+  padding: 5px 20px; /* Adds some padding for better visual appearance */
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
 
 .navbar {
@@ -44,13 +88,13 @@ p {
 }
 
 .dropdown-btn:hover {
-  background-color: #777;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-color: rgb(201, 77, 27);
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
   transform: scale(1.05);
 }
 
 .sub-btn {
-  background-color: #555;
+  background-color: rgb(201, 77, 27);
   color: white;
   padding: 10px 15px;
   border: none;
@@ -62,8 +106,8 @@ p {
 }
 
 .sub-btn:hover {
-  background-color: #777;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-color: rgb(201, 77, 27);
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
   transform: scale(1.05);
 }
 
@@ -116,18 +160,19 @@ p {
 #submenu46,
 #submenu47,
 #submenu48 {
-  border: 2px solid #555;
+  border: 0.0001px solid black;
   border-radius: 10px;
   width: 265px;
   margin: auto;
+  color: white;
   text-align: center;
   font-weight: bold;
-  background-color: white;
+  background-color: rgb(66, 74, 79);
 }
 
 /* Style for submit and clear buttons within each submenu */
 .submenu button {
-  background-color: #555;
+  background-color: rgb(201, 77, 27);
   color: white;
   padding: 8px 12px;
   border: none;
@@ -143,8 +188,8 @@ button {
 }
 
 .submenu button:hover {
-  background-color: #777;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(201, 77, 27);
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
 }
 
 /* Style for input feilds */
@@ -156,6 +201,9 @@ button {
   transition: background-color 0.3s, box-shadow 0.3s;
   position: relative;
   text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 0.1px solid black;
 }
 
 #totalbox {
@@ -166,9 +214,10 @@ button {
   cursor: pointer;
   transition: background-color 0.3s, box-shadow 0.3s;
   position: relative;
-  border: 2px solid #555;
+  border: 4px solid black;
   border-radius: 10px;
   text-align: center;
+  color: white;
 }
 
 .totalbox {
@@ -176,6 +225,7 @@ button {
   vertical-align: middle;
   position: relative;
   margin-right: 40px;
+  color: white;
 }
 
 li {
@@ -185,11 +235,31 @@ li {
 
 @media only screen and (min-width: 600px) {
   body {
-    background-color: yellow;
+    background-color: rgb(46, 67, 83);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center; /* Center vertically */
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
+  .heading {
+    background-color: white;
+    width: 100vw;
+    height: 100%;
+    border-bottom: 2px solid black; /* Adds a black bottom border */
+  }
+
+  h1 {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .color1 {
+    color: rgb(201, 77, 27);
+  }
+
+  .color2 {
+    color: rgb(46, 67, 85);
   }
 
   p {
@@ -200,7 +270,7 @@ li {
 
   h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 4rem;
   }
 
   h3 {
@@ -219,6 +289,10 @@ li {
     border: 2px solid #555;
     border-radius: 10px;
     text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
   }
 
   .dropdown-btn {
@@ -229,7 +303,7 @@ li {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    background-color: #555;
+    background-color: rgb(201, 77, 27);
     color: white;
     border: none;
     cursor: pointer;
@@ -247,7 +321,7 @@ li {
 
   .sub-btn {
     display: inline-block;
-    background-color: grey;
+    background-color: rgb(201, 77, 27);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -257,7 +331,6 @@ li {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    background-color: #555;
     color: white;
     padding: 10px 200px;
     border: none;
@@ -270,14 +343,39 @@ li {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: yellow;
+    background-color: rgb(46, 67, 83);
     display: flex;
     flex-direction: column;
     align-items: center; /* Center vertically */
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
 
+  .heading {
+    background-color: white;
+    width: 100vw;
+    border-bottom: 2px solid black; /* Adds a black bottom border */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
+  h1 {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .color1 {
+    color: rgb(201, 77, 27);
+  }
+
+  .color2 {
+    color: rgb(46, 67, 85);
+  }
   .dropdown-container {
-    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
   }
 
   .dropdown-btn {
@@ -291,13 +389,14 @@ li {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    background-color: #555;
+    background-color: rgb(201, 77, 27);
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .dropdown-content {
@@ -318,7 +417,7 @@ li {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    background-color: #555;
+    background-color: rgb(201, 77, 27);
     color: white;
     padding: 10px 200px;
     border: none;
@@ -327,4 +426,23 @@ li {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
   }
+
+  #totalbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin: 0px, 0px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    position: relative;
+    border: 2px solid #555;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
 }
+
