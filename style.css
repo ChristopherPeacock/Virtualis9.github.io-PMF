@@ -56,6 +56,7 @@ p {
 .navbar {
   text-align: center;
   align-items: center;
+  padding: 20px;
 }
 
 .warning {
