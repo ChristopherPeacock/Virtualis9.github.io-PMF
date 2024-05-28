@@ -16,7 +16,7 @@ function updateHistory(key, value) {
 function calculateValue(inputElementById, multiplyer, outputElementById) {
     let input = document.getElementById(inputElementById).value;
     let result = (input * multiplyer).toFixed(2);
-    document.getElementById(outputElementById).textContent = `${result}%`;
+    // document.getElementById(outputElementById).textContent = `${result}%`;
     updateHistory(inputElementById, result);
 }
 
@@ -33,7 +33,7 @@ function serviceLaying(inputElementById1, multiply1, inputElementById2, multiple
 
     let result = input1 * times1 + input2 * times2;
 
-    document.getElementById(outputElementById).textContent = `${result}%`;
+    // document.getElementById(outputElementById).textContent = `${result}%`;
 
     updateHistory(outputElementById, result);
 
@@ -48,4 +48,5 @@ function toggleSubmenu(submenuId) {
     var submenu = document.getElementById(submenuId);
     submenu.style.display = (submenu.style.display === "block") ? "none" : "block";
 }
+
 
