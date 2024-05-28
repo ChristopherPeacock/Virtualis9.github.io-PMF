@@ -250,6 +250,11 @@ li {
     border-bottom: 2px solid black; /* Adds a black bottom border */
   }
 
+  .navbar {
+    padding: 20px;
+  }
+
+
   h1 {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     text-align: center;
@@ -350,6 +355,11 @@ li {
     align-items: center; /* Center vertically */
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
+
+  .navbar {
+    padding: 20px;
+  }
+
 
   .heading {
     background-color: white;
