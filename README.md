@@ -6,9 +6,9 @@ Welcome to the Wales and West Productivity App! This is a client-side web applic
 The app is currently deployed and running on GitHub Pages for easy access.
 
 Features:
-📊 Performance Calculator: Engineers can input their hours worked and tasks completed to calculate their weekly performance.
-👥 Team-Based: The app considers a 2-man team dynamic to give more accurate productivity insights.
-⏱️ 40-Hour Workweek: All calculations are based on a standard 40-hour workweek, ensuring consistent benchmarks.
+📊 Performance Calculator: Engineers can input their tasks completed to calculate their weekly performance.
+👥 Team-Based: The app considers a 2-man team.
+⏱️ 40-Hour Workweek: All calculations are based on a standard 40-hour workweek.
 ⚙️ Client-Side Application: This is a lightweight, client-side web app, meaning no server setup is needed. It runs directly in the browser.
 🌐 Deployed on GitHub Pages: Easily accessible from any device with an internet connection, allowing engineers to check their performance on the go.
 
