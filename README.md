@@ -21,7 +21,7 @@ A modern web browser (Chrome, Firefox, Edge, etc.)
 
 ### How to Use
 
-1. Visit the live version on [GitHub Pages](https://your-github-pages-url).
+1. Visit the live version on [GitHub Pages]([https://your-github-pages-url](https://christopherpeacock.github.io/Virtualis9.github.io-PMF/)).
 2. Input your data:
    - Enter the tasks completed during the week. The app will calculate your performance score and display the results.
 
